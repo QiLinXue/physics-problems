@@ -1,0 +1,80 @@
+\documentclass[a4paper,11pt,oneside]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+%%%Problem Solution Dependency%%%
+\usepackage[auto-label]{exsheets}
+\usepackage{hyperref}
+
+\usepackage{mdframed}
+
+%%%Styling%%%
+\usepackage{indentfirst}
+
+
+\usepackage{amsmath}
+\usepackage{enumitem}
+
+%%%Spacing%%%
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+
+%%%Multiple Choice%%%
+\usepackage{multicol}
+
+%%%Figures%%%
+\usepackage{graphicx}
+\graphicspath{ {./Kinematics/} {./Coulomb1/}}
+
+%%%%%%%%%%%%
+% PAGE ONE %
+%%%%%%%%%%%%
+\title{\Huge \textbf{High School Physics} \\ \huge A Collection of Problems}
+\author{\textsc{QiLin Xue}}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+%%%%%%%%%%%
+% Preface %
+%%%%%%%%%%%
+\chapter*{Preface}
+\input{Preface/Preface.tex}
+
+%%%%%%%%%%%%%%%%
+%  Kinematics  %
+%%%%%%%%%%%%%%%%
+% \chapter{Kinematics}
+% \input{Kinematics/1Intro.tex}
+
+% \section{Equations}
+% \input{Kinematics/2Equations.tex}
+
+% \section{Tricks}
+% \input{Kinematics/3Tricks.tex}
+
+\newpage
+\section{Problems}
+\input{Kinematics/4Problems.tex}
+
+%%%%%%%%%%%%%%%%
+% Electrostatics  %
+%%%%%%%%%%%%%%%%
+\chapter{Coulomb's Law (Point Particle)}
+\input{Coulomb1/1Intro.tex}
+
+\section{Equations}
+\input{Coulomb1/2Equations.tex}
+
+\section{Tricks}
+\input{Coulomb1/3Tricks.tex}
+
+\newpage
+\section{Problems}
+\input{Coulomb1/4Problems.tex}
+
+\end{document}
