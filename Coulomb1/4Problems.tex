@@ -28,7 +28,7 @@ What are the units for permittivity of free space $\epsilon_0$?
 \begin{solution}
 
 Rearrange the equation to solve for $\epsilon_0$, and give all variables a value of 1 in order to figure out the units for $\epsilon_0$. Please note, that we are giving everything a value of 1 for the sole purpose of making adding, multiplying, and dividing units much easier. It of course is not necessary, but helps to build an intuition of dimensional analysis.
-\\\\
+
 The final value of course, is going to be incorrect, but we only care about the units. Because of this, we can ignore $2\pi$ since it is dimensionless.
 
 \begin{equation*}
@@ -56,7 +56,7 @@ Two $1\mu C$ charges lie at (1,0) and at (0,1).
 \begin{solution}
 
 The first thing we do is draw a diagram: see the figure below. We are attempting to calculate the force, and since the charges of both particles are already given to us, we need to figure out the distance separating them which can be done using geometry.
-\\
+
 \begin{center}
 % \begin{tikzpicture}
 % \begin{axis}[
@@ -118,7 +118,7 @@ A point charge +Q is located at the origin and a point charge -2Q is located at 
 
 \begin{solution}
 The first thing to realize is that the only place the electric field can ever be zero is along the x-axis.\footnote{think about suspending an object under two magnets. It only works if it's directly underneath both of them!} Before we brute force, let's make a diagram and think about the question qualitatively.
-\\\\
+
 % \begin{center}
 %   \begin{tikzpicture}[scale=2]
 %     \draw (-3,0) -- (3,0);
@@ -185,7 +185,7 @@ Using the superposition formula for potential, we see that it is only possible f
 \end{equation*}
 
 Therefore, II is the correct answer.
-\\\\
+
 Another solution is to draw the graphs of V(x) for each individual charge, and then superposition them like in the following figure:
 
 \begin{center}
@@ -236,7 +236,7 @@ Which of the three charge distributions introduced in the previous exercise has 
 
 \begin{solution}
 We have already proved in an earlier exercise that in, the electric field between two opposite charges different in magnitude, there is one point where it is zero. In a charge distribution where both charges have equal signs, there is also one place where the electric field is zero, this time in between both charges. This is the spot where the charges cancel out.
-\\\\
+
 The answer is I,II and III
 \end{solution}
 
@@ -349,7 +349,7 @@ Two point charges +Q are located on the x-axis at (-d,0) and (d,0). Sketch the e
 
 \begin{solution}
 First, graph the individual electric fields each charge produces, then sum it up. Please note we are NOT graphing $\frac{Q}{r\pi\epsilon_0x^2}$. That gives the magnitude of the electric field. Since electric field is a vector, anything that is to the left (negative x direction) of the charge will have a negative electric field.
-\\\\
+
 The individual electric fields will look like:\footnote{Because of program graphing issues, the vertical asymptotes are shown, but in reality both ends should extend to $\pm \infty$ meaning these vertical lines are not \emph{real}}
 
 \begin{center}
@@ -409,7 +409,8 @@ And after they are superimposed, and added, it will look like:
 
 % \end{axis}
 % \end{tikzpicture}
-\includegraphics{Figures/Figure211}
+% \includegraphics{Figures/Figure211}
+TBA
 \end{center}
 
 \end{solution}
@@ -476,7 +477,6 @@ Then:
                 \frac{Qx}{4\pi\epsilon_0 a^3}
             \approx
                 \frac{-Q}{4\pi\epsilon_0x^2}
-              
 \end{equation*}
 
 (C) To approximate for very large x, we can make a similar approximation:
@@ -494,7 +494,7 @@ Therefore:
               \frac{-Q}{4\pi\epsilon_0x^2} +
               \frac{Qx}{4\pi\epsilon_0x^3}
             =
-              \frac{Q}{4\pi\epsilon_0\x^2}
+              \frac{Q}{4\pi\epsilon_0x^2}
 \end{equation*}
 
 If you're not illiterate, you would have realized this is just the standard electric field equation! This is because when you are \emph{very} far away from the origin, it's impossible to see the separation of the three charges, it seems that they're all at the origin. The resulting field is due to the sum of the three charges: $Q_{effective}=Q+Q-Q=Q$, at the origin
@@ -557,7 +557,7 @@ Recall that the electric field is the negative slope of the potential curve: $E_
 
 \newpage
 \subsection*{Exercises}
-Only answers and hints will be provided to these exercises, with no full solution. Good luck!\\
+Only answers and hints will be provided to these exercises, with no full solution. Good luck!
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -844,7 +844,8 @@ E (Hint: Potential is a scaler!)
 
 \begin{question}
 (AP) From the electric field vector at a point, one can determine which of the following at that point?
-\begin{enumerate}[I]
+
+\begin{enumerate}
     \item The direction of the electrostatic force on a test charge of known sign
     \item The magnitude of the electrostatic force exerted per unit charge on a test charge
     \item The electrostatic charge
@@ -957,7 +958,7 @@ As shown below, two particles, each of charge +Q, are fixed at opposite corners 
 
 \begin{question}
 (AP) What is the direction of the force on the test charge due to the two other charges?
-\begin{multicols}{5}
+
 \begin{enumerate}[label=(\alph*)]
     \item top right
     \item right
@@ -965,7 +966,6 @@ As shown below, two particles, each of charge +Q, are fixed at opposite corners 
     \item down
     \item bottom left
 \end{enumerate}
-\end{multicols}
 
 \end{question}
 
@@ -1020,7 +1020,7 @@ A (Hint: Which ways to field lines point again?)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
-Particle of charge Q is located at (-2,0) and another particle of charge -4Q is located at (2,0). Assume the particles are isolated from all other charges. P is a point on the y axis above the x axis. Use this information to answer the next two questions:\\
+Particle of charge Q is located at (-2,0) and another particle of charge -4Q is located at (2,0). Assume the particles are isolated from all other charges. P is a point on the y axis above the x axis. Use this information to answer the next two questions:
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1091,11 +1091,11 @@ E (Hint: Draw it out! It's first charging by separation then charging by inducti
 \newpage
 \begin{question}
 Two experiments are performed using a pair of solid metal spheres connected by a switch. Both spheres are grounded before each experiment so that they initially have no charge.
-\\\\
+
 \emph{Experiment I:} A positively charged rod is brought near sphere A while the the switch is closed, the switch is opened, and the rod is then removed.
-\\
+
 \emph{Experiment II:} A positively charged rod is touched to sphere A while the switch is closed, the switch is opened, and the rod is then removed.
-\\\\
+
 Which of the following describes the charge on the spheres after both experiments?
 \begin{enumerate}[label=(\alph*)]
     \item After I: both have no charge; After II: both are positive
