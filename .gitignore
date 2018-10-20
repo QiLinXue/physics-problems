@@ -1,3 +1,8 @@
+# Stupid Graphing Things
+*.dat
+*.script
+*.gnuplot
+
 # Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
