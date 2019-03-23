@@ -1,0 +1,91 @@
+
+
+% \begin{center}
+%     \fbox{\fbox{\parbox{5.5in}{\centering
+%     The following are questions relating to logarithms and exponentials taken from a variety of sources. The third section includes a list of all Euclid problems starting from the year 2018 and going backwards. Every year, at least one logarithm problem appears in the later problems. If you know the right tools, these can actually be really easy, easily giving you an extra 5 points!}}}
+% \end{center}
+
+
+\begin{questions}
+
+\question
+
+Mr. Stewart has broken into a bank and stole a block of silver and a block of gold. He attaches the two blocks together with a 2m long string and begins pulling the silver block with a force $F$ to make it start moving. Notice that the coefficients of friction are different for each block.
+
+\bigskip
+
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) rectangle (1,1) node[pos=.5] {10kg};
+        \node at (0.5,-0.5) {$\mu_{s}=0.4$};
+        \node at (0.5,-1.0) {$\mu_{k}=0.3$};
+        \draw (3,0) rectangle (4,1) node[pos=.5] {20kg};
+        \node at (3.5,-0.5) {$\mu_{s}=0.3$};
+        \node at (3.5,-1.0) {$\mu_{k}=0.2$};
+
+        \draw (1,0.5) -- (3,0.5) node[anchor=south,pos=.5] {1m};
+        \draw [thick, ->] (-0.1,0.5) -- (-2,0.5) node[anchor=south, inner sep=10pt] {F=?};
+        \draw (-5,0) -- (6,0);
+    \end{tikzpicture}
+    
+\end{center}
+
+\begin{parts}
+    \part
+    Draw a free body diagram for each block.
+
+    \part
+    What is the minimum force $F$ required?
+
+    \part
+    After the blocks start moving. What is the acceleration?
+
+    \part
+    What is the tension in the rope between the two blocks?
+
+    \part
+    Suddenly, the police come and Mr. Stewart stops dead in his tracks. Although the silver block stops with him, the gold block continues forward. Using Newton's Laws, explain why this occurs.
+    
+    \part
+    Will the gold block collide with the silver block? If so, what will its speed be when it collides?
+
+    \part
+    The bored 60kg police officer asks Mr. Stewart to drag the blocks back to the bank. However, he decides to sits on the gold block. Mr. Stewart agrees and starts dragging the blocks back. Draw a free body diagram for when the system is moving. There is enough friction between the officer and the gold block such that he does not slide off.
+
+    \part
+    When Mr. Stewart is moving at 1m/s, the police officer tells him to move at a constant velocity. What force does Mr. Stewart need to pull with to maintain a constant velocity of 1m/s?
+
+    \part
+    However, Mr. Stewart is a rebel. He decides to increase his velocity just enough so the police officer starts sliding off. If the coefficient of static friction between him and the gold block is $\mu_s=0.5$, how much does he need to increase the force he's currently applying?
+\end{parts}
+
+\question
+Mr. Stewart is taken into custody. However, when no one was looking he ran into a small closet. He thought he was safe, but when he heard approaching footsteps he was forced to hide. Using his superhuman strength, he hid at the top of the closet wedged between two opposing walls. His hands and feet exert a force of $80N$ each on the walls, which is just enough to keep him still.
+
+\begin{center}
+    \begin{tikzpicture}
+        \draw (0,0) rectangle (3,3);
+        \draw (0,2.1) rectangle (1.1,2.2);
+        \draw (0,2.9) rectangle (1.1,2.8);
+
+        \draw (0.7,2.5) circle (0.25);
+
+        \draw (0.95,2.8) rectangle (2,2.2);
+        \draw (2,2.2) rectangle (3,2.45);
+        \draw (2,2.8) rectangle (3,2.55);
+
+    \end{tikzpicture}
+\end{center}
+
+\begin{parts}
+    \part
+    Draw a free body diagram for his hands and his feet. (Treat his hands as one object and his feet as one object)
+    \part
+    What is the coefficient of static friction between the room and Mr. Stewart?
+    \part
+    Suddenly, a police officer walks in. Luckily, he does not see Mr. Stewart hiding. However, the room starts accelerates at $1m/s^2$ vertically. Mr. Stewart finds that he needs to exert more force to stay stationary relative to the elevator. Is the elevator moving up or down?
+    \part
+    What is the minimum force his hands and feet need to exert now?
+\end{parts}
+
+\end{questions}
